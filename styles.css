@@ -29,6 +29,7 @@ img{
   max-width: 100%;
 }
 .about-container{
+  background-color: rgba(197, 170, 151, 0.3);
   min-height: 100vh;
   display: flex;
   flex-wrap: wrap;
