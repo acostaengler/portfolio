@@ -1,0 +1,126 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+
+}
+p{
+    word-spacing: 3px;
+    font-weight: 300;
+    font-size: 1.2rem;
+    color: #55555c;
+    text-align: justify;
+}
+
+h1{
+  color: #333333;
+  letter-spacing: 1px;
+  font-weight: 300;
+  word-spacing: 2px;
+  font-size: 2.3rem;
+  margin: 15px 0; 
+}
+h3{
+  color: #77a8a8;
+  font-size: 1.4rem; 
+  margin: 0; 
+}
+
+img{
+  max-width: 100%;
+
+}
+
+.about-container {
+  min-height: 100vh;
+}
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.about-container > div{
+  
+  width: 500px;
+  margin: 10px;
+  text-align: center;
+}
+
+@media screen and (max-width: 900px) and (min-width: 700px)  {
+
+
+}
+
+
+
+@media screen and (max-width: 1500px) and (min-width: 1200px)  {
+
+}
+
+
+
+
+/* Style the links inside the navigation bar */
+.topnav p{
+  color: white;
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 5px;
+     text-transform: uppercase;
+}
+/* Change the color of links on hover */
+.topnav a:hover { 
+    background-color: grey;
+}
+.icon {
+    background-color: transparent;
+}
+.icon:hover{
+    background-color: grey;
+     opacity: 0.5;
+}
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
+
+.home-container {
+    /* The image used */
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url(image/isa.jpg);
+    /* Full height */
+    min-height: 100vh; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    clear: both;
+}
+
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+
+.home-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.home-text p{
+  color: white;
+  font-weight: 400;
+  font-size: 2.5em;
+  letter-spacing: 2px;
+}
+
