@@ -107,19 +107,19 @@ h3{
    max-width: 500px;
 }
 
-
-
-
-
 .experience-container{
   min-height: 100vh;
-  padding: 0 1em 3em;
   background-color: #F6F6F6;
-    display: flex;
+  display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: center;
+    align-items: center;
+    padding: 2em 0;
 }
+.experience-container > div{
+margin: 1em;
+}
+
 .education-container span{
   font-weight:bold;
   font-size: 1.3em;
@@ -220,11 +220,32 @@ margin: 0.4em;
 .chart{
   padding: 0 0.5em;
 }
+.experience-container{
+  padding: 0 0 2em 0;
+
+}
 }
 /*DESKTOP*/
 @media screen and (min-width: 900px)  {
 .about-container > div{
    max-width: 50%;
+}
+.education-container{
+padding: 0 50px;
+}
+.education-container article{
+ max-width: 300px;
+}
+.experience-container{
+  padding: 0;
+}
+.contact-container p{
+  max-width: 500px;
+}
+
+
+.chart{
+  padding: 0 50px;
 }
 }
 
