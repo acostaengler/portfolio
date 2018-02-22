@@ -41,9 +41,9 @@ img{
 }
 
 
-@media screen and (max-width: 1024px) and (min-width: 500px)  {
+@media screen and (max-width: 900px) and (min-width: 400px)  {
 .about-container > div{
-max-width: 60%;
+max-width: 55%;
 margin: 0.4em;
 }
 
@@ -51,7 +51,7 @@ margin: 0.4em;
 
 
 
-@media screen and (max-width: 1500px) and (min-width: 1000px)  {
+@media screen and (max-width: 1500px) and (min-width: 900px)  {
 .about-container > div{
    max-width: 50%;
 }
