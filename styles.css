@@ -25,25 +25,22 @@ h3{
   font-size: 1.4rem; 
   margin: 0; 
 }
-
 img{
   max-width: 100%;
-
 }
-
-.about-container {
+.about-container{
   min-height: 100vh;
-    display: flex;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
-
 .about-container > div{
-  width: 500px;
-  margin: 10px;
-
+   
+   width: 500px;
 }
 
+/*
 @media screen and (max-width: 900px) and (min-width: 700px)  {
 
 
@@ -53,7 +50,7 @@ img{
 
 @media screen and (max-width: 1500px) and (min-width: 1200px)  {
 
-}
+}*/
 
 
 
