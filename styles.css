@@ -40,18 +40,15 @@ img{
    max-width: 500px;
 }
 
-
-@media screen and (max-width: 900px) and (min-width: 400px)  {
+/*IPAD*/
+@media screen and (max-width: 900px) and (min-width: 700px)  {
 .about-container > div{
-max-width: 55%;
+max-width: 60%;
 margin: 0.4em;
 }
-
 }
-
-
-
-@media screen and (max-width: 1500px) and (min-width: 900px)  {
+/*DESKTOP*/
+@media screen and (min-width: 900px)  {
 .about-container > div{
    max-width: 50%;
 }
