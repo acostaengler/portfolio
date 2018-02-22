@@ -25,12 +25,6 @@ h3{
   font-size: 1.4rem; 
   margin: 0; 
 }
-.image-container img{
-  max-width: 100%;
-  border-radius: 5px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  height: auto;
-}
 
 /* Style the links inside the navigation bar */
 .topnav p{
@@ -80,9 +74,6 @@ h3{
     clear: both;
 }
 
-
-/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
-
 .home-text {
     position: absolute;
     top: 50%;
@@ -96,6 +87,12 @@ h3{
   letter-spacing: 2px;
 }
 
+.image-container img{
+  max-width: 100%;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: auto;
+}
 
 .about-container{
   background-color: rgba(197, 170, 151, 0.3);
@@ -108,6 +105,64 @@ h3{
 }
 .about-container > div{
    max-width: 500px;
+}
+
+.experience-container{
+  min-height: 100vh;
+  padding: 15px 15px 50px;
+  background-color: #F6F6F6;
+}
+.chart ul {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  max-width: 400px;
+  height: 200px;
+      list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.chart li {
+  position: relative;
+  display: table-cell;
+  vertical-align: bottom;
+  height: 200px;
+}
+.chart span {
+  display: block;
+   margin: 0 0.1em;
+}
+.chart span:before {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 100%;
+  padding: 5px 0;
+  display: block;
+  text-align: center;
+  content: attr(title);
+  word-wrap: break-word;
+}
+.html{
+  background: #c5aa97;
+  animation: draw 1s ease-in-out;}
+
+.css{
+  background: #b9b0b0;
+  animation: draw 1s ease-in-out;}
+
+  .javascript{
+  background: #d9ecd0;
+  animation: draw 1s ease-in-out;}
+
+  .php{
+  background: #77a8a8;
+  animation: draw 1s ease-in-out;}
+
+@keyframes draw {
+  0% {
+    height: 0;
+  }
 }
 
 /*IPAD*/
