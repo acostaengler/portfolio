@@ -1,20 +1,17 @@
 body, html {
     margin: 0;
-    padding: 0;
     font-family: 'Lato', sans-serif;
-
 }
 p{
     word-spacing: 3px;
     font-weight: 300;
     font-size: 1.2rem;
     color: #55555c;
-    text-align: justify;
 }
 
 h1{
   color: #333333;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   font-weight: 300;
   word-spacing: 2px;
   font-size: 2.3rem;
@@ -26,45 +23,96 @@ h3{
   margin: 0; 
 }
 
-/* Style the links inside the navigation bar */
-.topnav p{
-  color: white;
+.nav {
+  height: 50px;
+  width: 100%;
+  position: relative;
 }
-.topnav a {
-    float: left;
+
+.nav > .nav-header {
+  display: inline;
+}
+
+.nav > .nav-header > .nav-title {
+  display: inline-block;
+  font-size: 22px;
+  color: #fff;
+  padding: 10px 10px 10px 10px;
+}
+
+.nav > .nav-btn {
+  display: none;
+}
+
+.nav > .nav-links {
+  display: inline;
+  float: right;
+  font-size: 18px;
+}
+
+.nav > .nav-links > a {
+  display: inline-block;
+  padding: 13px 10px 13px 10px;
+  text-decoration: none;
+  text-align: center;
+  color: #efefef;
+}
+
+.nav > .nav-links > a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.nav > #nav-check {
+  display: none;
+}
+
+@media (max-width:600px) {
+  .nav{
+     position: fixed;
+  }
+  .nav > .nav-btn {
+    display: inline-block;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    padding: 15px;
+  }
+
+  .nav > .nav-btn > label:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .nav > .nav-btn > label > span {
     display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 15px;
-    font-weight: 5px;
-     text-transform: uppercase;
-}
-/* Change the color of links on hover */
-.topnav a:hover { 
-    background-color: grey;
-}
-.icon {
-    background-color: transparent;
-}
-.icon:hover{
-    background-color: grey;
-     opacity: 0.5;
-}
-/* Hide the link that should open and close the topnav on small screens */
-.topnav .icon {
-    display: none;
+    width: 20px;
+    height: 5px;
+    border-top: 2px solid #eee;
+  }
+  .nav > .nav-links {
+    
+    width: 100%;
+    background-color: #333;
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow: hidden;
+    top: 50px;
+    left: 0px;
+  }
+  .nav > .nav-links > a {
+ display: flex;
+ justify-content: center;
+
+  }
+
+  .nav > #nav-check:checked + .nav-links {
+    height: 40vh;
+    overflow: hidden;
+  }
 }
 
 
 .home-container {
-    /* The image used */
-    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url(image/isa.jpg);
-    /* Full height */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(image/isa.jpg);
     min-height: 100vh; 
-
-    /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -93,7 +141,9 @@ h3{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   height: auto;
 }
-
+.about-container p{
+   text-align: justify;
+}
 .about-container{
   background-color: rgba(197, 170, 151, 0.3);
   min-height: 100vh;
@@ -102,31 +152,24 @@ h3{
   justify-content: space-around;
   align-items: center;
   padding: 1em;
+   text-align: justify;
 }
-.about-container > div{
-   max-width: 500px;
-}
-
 .experience-container{
   min-height: 100vh;
   background-color: #F6F6F6;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-    align-items: center;
-    padding: 2em 0;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 1em;
 }
-.experience-container > div{
-margin: 1em;
-}
-
 .education-container span{
   font-weight:bold;
   font-size: 1.3em;
   font-family: 'Dancing Script', cursive;
 }
-.education-container article{
- max-width: 300px;
+.chart{
+margin: 2em 0;
 }
 
 .chart ul {
@@ -155,7 +198,6 @@ margin: 1em;
   right: 0;
   top: 100%;
   padding: 5px 0;
-  display: block;
   text-align: center;
   content: attr(title);
   word-wrap: break-word;
@@ -213,40 +255,35 @@ margin: 1em;
 
 /*IPAD*/
 @media screen and (max-width: 900px) and (min-width: 700px)  {
-	.about-container{
-		padding: 0;
-	}
-.chart{
-  padding: 0 0.5em;
+    .education-container {
+  flex-basis:250px;
 }
-.experience-container{
-  padding: 0 0 2em 0;
+.about-text{
+   max-width: 500px;
 }
 }
 /*DESKTOP*/
 @media screen and (min-width: 900px)  {
+  h1{
+  font-size: 2.1rem; 
+}
+h3{
+  font-size: 1.4rem;  
+}
+  p{
+    font-size: 1rem;
+}
 		.about-container{
 		padding: 0;
 	}
-.about-container > div{
+.about-text{
    max-width: 50%;
 }
-.education-container{
-padding: 0 50px;
-}
-.education-container article{
- max-width: 300px;
-}
-.experience-container{
-  padding: 0;
+  .education-container  {
+  flex-basis:300px;
 }
 .contact-container p{
   max-width: 500px;
-}
-
-
-.chart{
-  padding: 0 50px;
 }
 }
 
