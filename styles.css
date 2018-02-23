@@ -213,20 +213,21 @@ margin: 1em;
 
 /*IPAD*/
 @media screen and (max-width: 900px) and (min-width: 700px)  {
-.about-container > div{
-max-width: 60%;
-margin: 0.4em;
-}
+	.about-container{
+		padding: 0;
+	}
 .chart{
   padding: 0 0.5em;
 }
 .experience-container{
   padding: 0 0 2em 0;
-
 }
 }
 /*DESKTOP*/
 @media screen and (min-width: 900px)  {
+		.about-container{
+		padding: 0;
+	}
 .about-container > div{
    max-width: 50%;
 }
