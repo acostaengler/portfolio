@@ -93,7 +93,7 @@ text-align: center;
   flex-flow: row wrap;
   min-height: 100vh;
   justify-content: space-around;
-  background-color: #F6F6F6;
+  background-color: rgba(185, 176, 176, .4);
   color: #55555c;
 }
 
@@ -315,6 +315,11 @@ display: block;
 .experience-container{
 padding: 10px;
 }
+#skill { 
+padding: 70px 0 0;
+margin: 0;
+}
+
 .contact-text{
 flex-grow: 1;
 }
