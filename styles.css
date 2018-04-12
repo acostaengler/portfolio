@@ -224,6 +224,11 @@ flex-basis: 50%;
    position: relative;
    top: 70px;
    padding: 15px;
+     flex-shrink: 1;
+  flex-basis: 40%;
+}
+.contact-text p{
+  color: #333333;
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 767px) and (orientation: portrait) {
@@ -309,6 +314,9 @@ display: block;
 }
 .experience-container{
 padding: 10px;
+}
+.contact-text{
+flex-grow: 1;
 }
 }
 
