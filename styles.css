@@ -333,6 +333,9 @@ flex-grow: 1;
   min-height: 0vh;
 
 }
+.desktop-text{
+  display: none;
+}
 }
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: portrait) {
@@ -344,6 +347,7 @@ flex-grow: 1;
   min-height: 0vh;
   padding: 50px;
 }
+
 }
 /*
 
