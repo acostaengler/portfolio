@@ -255,6 +255,9 @@ flex-basis: 50%;
 .about-text  {
 flex-grow: 1;
 }
+.about-text h1  {
+margin: 0;
+}
 .about-image{
   order: 2;
 }
