@@ -157,7 +157,7 @@ flex-basis: 50%;
 }
 
 .html-css {
-  width:90%;
+  width:100%;
   -moz-animation:html-css 2s ease-out;
   -webkit-animation:html-css 2s ease-out;
   background: #d9ecd0;
