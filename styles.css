@@ -64,7 +64,16 @@ h3{
 
 
 .home-container {
-
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(image/isa.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    clear: both;
+   overflow: hidden;
+    min-height: 100vh; 
 }
 .home-text {
   position: relative;
@@ -135,7 +144,7 @@ flex-basis: 50%;
 }
 
 .graphic-design {
-  width:90%; 
+  width:100%; 
   -moz-animation:graphic-design 2s ease-out;
   -webkit-animation:graphic-design 2s ease-out;
   background-color: #77a8a8;
