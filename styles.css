@@ -144,7 +144,7 @@ flex-basis: 50%;
 }
 
 .graphic-design {
-  width:100%; 
+  width:90%; 
   -moz-animation:graphic-design 2s ease-out;
   -webkit-animation:graphic-design 2s ease-out;
   background-color: #77a8a8;
