@@ -163,52 +163,52 @@ flex-basis: 50%;
   width:100%; 
   -moz-animation:graphic-design 2s ease-out;
   -webkit-animation:graphic-design 2s ease-out;
-  background-color: #f674a4;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#f674a4), to(#e06995));
-  background-image: -webkit-linear-gradient(top, #f674a4, #e06995);
-  background-image: -moz-linear-gradient(top, #f674a4, #e06995);
-  background-image: -ms-linear-gradient(top, #f674a4, #e06995);
-  background-image: -o-linear-gradient(top, #f674a4, #e06995);
-  background-image: linear-gradient(top, #f674a4, #e06995);
+  background-color: #77a8a8;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#77a8a8), to(#77a8a8));
+  background-image: -webkit-linear-gradient(top, #77a8a8, #77a8a8);
+  background-image: -moz-linear-gradient(top, #77a8a8, #77a8a8);
+  background-image: -ms-linear-gradient(top, #77a8a8, #77a8a8);
+  background-image: -o-linear-gradient(top, #77a8a8, #77a8a8);
+  background-image: linear-gradient(top, #77a8a8, #77a8a8);
 }
 
 .html-css {
   width:90%;
   -moz-animation:html-css 2s ease-out;
   -webkit-animation:html-css 2s ease-out;
-  background-color: #f0bb4b;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#f0bb4b), to(#d9aa44));
-  background-image: -webkit-linear-gradient(top, #f0bb4b, #d9aa44);
-  background-image: -moz-linear-gradient(top, #f0bb4b, #d9aa44);
-  background-image: -ms-linear-gradient(top, #f0bb4b, #d9aa44);
-  background-image: -o-linear-gradient(top, #f0bb4b, #d9aa44);
-  background-image: linear-gradient(top, #f0bb4b, #d9aa44);
+  background: #d9ecd0;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#d9ecd0), to(#d9ecd0));
+  background-image: -webkit-linear-gradient(top, #d9ecd0, #d9ecd0);
+  background-image: -moz-linear-gradient(top, #d9ecd0, #d9ecd0);
+  background-image: -ms-linear-gradient(top, #d9ecd0, #d9ecd0);
+  background-image: -o-linear-gradient(top, #d9ecd0, #d9ecd0);
+  background-image: linear-gradient(top, #d9ecd0, #d9ecd0);
 }
 
 .jquery {
   width:65%;
   -moz-animation:jquery 2s ease-out;
   -webkit-animation:jquery 2s ease-out;
-  background-color: #a1ce5b;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#a1ce5b), to(#91ba52));
-  background-image: -webkit-linear-gradient(top, #a1ce5b, #91ba52);
-  background-image: -moz-linear-gradient(top, #a1ce5b, #91ba52);
-  background-image: -ms-linear-gradient(top, #a1ce5b, #91ba52);
-  background-image: -o-linear-gradient(top, #a1ce5b, #91ba52);
-  background-image: linear-gradient(top, #a1ce5b, #91ba52);
+  background: #b9b0b0;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#b9b0b0), to(#b9b0b0));
+  background-image: -webkit-linear-gradient(top, #b9b0b0, #b9b0b0);
+  background-image: -moz-linear-gradient(top, #b9b0b0, #b9b0b0);
+  background-image: -ms-linear-gradient(top, #b9b0b0, #b9b0b0);
+  background-image: -o-linear-gradient(top, #b9b0b0, #b9b0b0);
+  background-image: linear-gradient(top, #b9b0b0, #b9b0b0);
 }
 
 .wordpress {
   width:80%;
   -moz-animation:wordpress 2s ease-out;
   -webkit-animation:wordpress 2s ease-out;
-  background-color: #66b3cc;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#66b3cc), to(#5da3ba));
-  background-image: -webkit-linear-gradient(top, #66b3cc, #5da3ba);
-  background-image: -moz-linear-gradient(top, #66b3cc, #5da3ba);
-  background-image: -ms-linear-gradient(top, #66b3cc, #5da3ba);
-  background-image: -o-linear-gradient(top, #66b3cc, #5da3ba);
-  background-image: linear-gradient(top, #66b3cc, #5da3ba)  
+  background: #c5aa97; 
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#c5aa97), to(#c5aa97));
+  background-image: -webkit-linear-gradient(top, #c5aa97, #c5aa97);
+  background-image: -moz-linear-gradient(top, #c5aa97, #c5aa97);
+  background-image: -ms-linear-gradient(top, #c5aa97, #c5aa97);
+  background-image: -o-linear-gradient(top, #c5aa97, #c5aa97);
+  background-image: linear-gradient(top, #c5aa97, #c5aa97)  
 }
 
 @-moz-keyframes graphic-design {0%  { width:0px;} 100%{ width:100%;}  }
