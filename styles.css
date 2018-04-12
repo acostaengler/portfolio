@@ -254,7 +254,9 @@ flex-basis: 50%;
 }
 .about-text  {
 flex-grow: 1;
-
+}
+.about-image{
+  order: 2;
 }
 .topnav {
   overflow: hidden;
