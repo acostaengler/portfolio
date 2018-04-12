@@ -79,7 +79,6 @@ h3{
   position: relative;
   top: 130px;
 text-align: center;
-
 }
 .home-text p{
   color: #F6F6F6;
@@ -239,6 +238,9 @@ flex-basis: 50%;
     clear: both;
    overflow: hidden;
     min-height: 100vh; 
+}
+.home-text {
+  top: 70px;
 }
 
   .about-container {
