@@ -301,6 +301,9 @@ display: block;
 .home-text p{
   font-size: 1.8em;
 }
+.desktop-text{
+  display: none;
+}
 .education-container{
   flex-grow: 1;
 }
