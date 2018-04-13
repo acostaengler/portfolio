@@ -20,7 +20,7 @@ p{
 }
 
 h1{
-  color: #3A454F;
+  color: #333333;
   letter-spacing: 1px;
   font-weight: 400;
   word-spacing: 2px;
@@ -93,7 +93,7 @@ text-align: center;
   flex-flow: row wrap;
   min-height: 100vh;
   justify-content: space-around;
-  background-color: #77a8a8;
+  background-color: #b9b0b0;
   color: #55555c;
 }
 
@@ -144,7 +144,7 @@ flex-basis: 50%;
 }
 
 .graphic-design {
-  width:100%; 
+  width:90%; 
   -moz-animation:graphic-design 2s ease-out;
   -webkit-animation:graphic-design 2s ease-out;
   background-color: #77a8a8;
